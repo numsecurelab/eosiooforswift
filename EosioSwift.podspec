@@ -34,6 +34,6 @@ Pod::Spec.new do |s|
 						                'SWIFT_COMPILATION_MODE' => 'wholemodule',
 						                'ENABLE_BITCODE' => 'YES' }
 
-  s.ios.dependency 'BigInt', '~> 3.1'
+  s.ios.dependency 'BigInt', '~> 4.0'
   s.ios.dependency 'PromiseKit', '~> 6.8'
 end
